@@ -1,0 +1,90 @@
+[0m17:57:24.813757 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78ec6646c920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78ec662d64e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78ec662d7f50>]}
+
+
+============================== 17:57:24.817830 | 199eb062-168c-4e6d-9b0a-77630743cc38 ==============================
+[0m17:57:24.817830 [info ] [MainThread]: Running with dbt=1.9.0
+[0m17:57:24.818283 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'False', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': '/home/apitta/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init weather', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m17:57:24.845462 [debug] [MainThread]: Starter project path: /home/apitta/.pyenv/versions/3.12.3/lib/python3.12/site-packages/dbt/include/starter_project
+[0m17:57:24.850905 [info ] [MainThread]: 
+Your new dbt project "weather" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:57:24.851356 [info ] [MainThread]: Setting up your profile.
+[0m17:59:04.631831 [info ] [MainThread]: Profile weather written to /home/apitta/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m17:59:04.637648 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 92.145164, "process_in_blocks": "1680", "process_kernel_time": 0.133573, "process_mem_max_rss": "101100", "process_out_blocks": "80", "process_user_time": 1.297679}
+[0m17:59:04.638734 [debug] [MainThread]: Command `dbt init` succeeded at 17:59:04.638618 after 92.15 seconds
+[0m17:59:04.639078 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78ec66bfb080>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78ec660fb290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78ec65fc72c0>]}
+[0m17:59:04.639442 [debug] [MainThread]: Flushing usage events
+[0m17:59:05.583344 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:01:48.951816 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x734a0f638440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x734a11494c20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x734a0f789d00>]}
+
+
+============================== 18:01:48.954921 | 61510457-0212-4dde-be04-b26a1ba84b0e ==============================
+[0m18:01:48.954921 [info ] [MainThread]: Running with dbt=1.9.0
+[0m18:01:48.955470 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': '/home/apitta/.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt init weather', 'send_anonymous_usage_stats': 'True'}
+[0m18:01:48.964759 [info ] [MainThread]: A project called weather already exists here.
+[0m18:01:48.965883 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.063015155, "process_in_blocks": "0", "process_kernel_time": 0.177709, "process_mem_max_rss": "98436", "process_out_blocks": "16", "process_user_time": 1.157176}
+[0m18:01:48.966402 [debug] [MainThread]: Command `dbt init` succeeded at 18:01:48.966304 after 0.06 seconds
+[0m18:01:48.966758 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x734a0f6709b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x734a0f131bb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x734a0f280a10>]}
+[0m18:01:48.967332 [debug] [MainThread]: Flushing usage events
+[0m18:01:49.499077 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:01:58.624101 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c9c11800920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c9c0fc60b00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c9c0f25f6b0>]}
+
+
+============================== 18:01:58.626992 | a95187cb-3897-4855-8f08-8689c4b20292 ==============================
+[0m18:01:58.626992 [info ] [MainThread]: Running with dbt=1.9.0
+[0m18:01:58.627470 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': '/home/apitta/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m18:02:10.505211 [error] [MainThread]: Encountered an error:
+
+[0m18:02:10.508899 [error] [MainThread]: Traceback (most recent call last):
+  File "/home/apitta/.pyenv/versions/3.12.3/lib/python3.12/site-packages/dbt/cli/requires.py", line 153, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/apitta/.pyenv/versions/3.12.3/lib/python3.12/site-packages/dbt/cli/requires.py", line 103, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/apitta/.pyenv/versions/3.12.3/lib/python3.12/site-packages/dbt/cli/main.py", line 477, in init
+    results = task.run()
+              ^^^^^^^^^^
+  File "/home/apitta/.pyenv/versions/3.12.3/lib/python3.12/site-packages/dbt/task/init.py", line 324, in run
+    project_name = self.get_valid_project_name()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/apitta/.pyenv/versions/3.12.3/lib/python3.12/site-packages/dbt/task/init.py", line 278, in get_valid_project_name
+    name = click.prompt("Enter a name for your project (letters, digits, underscore)")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/apitta/.pyenv/versions/3.12.3/lib/python3.12/site-packages/click/termui.py", line 168, in prompt
+    value = prompt_func(prompt)
+            ^^^^^^^^^^^^^^^^^^^
+  File "/home/apitta/.pyenv/versions/3.12.3/lib/python3.12/site-packages/click/termui.py", line 151, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+
+[0m18:02:10.509911 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": false, "command_wall_clock_time": 11.936584, "process_in_blocks": "32", "process_kernel_time": 0.13084, "process_mem_max_rss": "98116", "process_out_blocks": "8", "process_user_time": 1.217342}
+[0m18:02:10.510396 [debug] [MainThread]: Command `dbt init` failed at 18:02:10.510314 after 11.94 seconds
+[0m18:02:10.510691 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c9c0f603dd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c9c0f1d87a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c9c0f1d94c0>]}
+[0m18:02:10.511039 [debug] [MainThread]: Flushing usage events
+[0m18:02:11.130555 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:02:29.944270 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7761d458c590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7761d298c830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7761d4691250>]}
+
+
+============================== 18:02:29.948980 | 441c5940-5397-4c2d-84c7-867961051416 ==============================
+[0m18:02:29.948980 [info ] [MainThread]: Running with dbt=1.9.0
+[0m18:02:29.949900 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/apitta/.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt init weather', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m18:02:29.958904 [info ] [MainThread]: A project called weather already exists here.
+[0m18:02:29.960036 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.06111271, "process_in_blocks": "0", "process_kernel_time": 0.157981, "process_mem_max_rss": "98288", "process_out_blocks": "8", "process_user_time": 1.207137}
+[0m18:02:29.960514 [debug] [MainThread]: Command `dbt init` succeeded at 18:02:29.960416 after 0.06 seconds
+[0m18:02:29.960844 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7761d458c590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7761d271c200>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7761d271f170>]}
+[0m18:02:29.961187 [debug] [MainThread]: Flushing usage events
+[0m18:02:30.479664 [debug] [MainThread]: An error was encountered while trying to flush usage events
